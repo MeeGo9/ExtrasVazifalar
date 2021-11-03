@@ -67,5 +67,27 @@ class NewsActivity : AppCompatActivity() {
             startActivity(intent)
 
         }
+
+        news6.setOnClickListener {
+            val text = bigtext6.text.toString()
+            val date = date6.text.toString()
+            val intent = Intent(this, NewDetailActivity::class.java)
+            intent.putExtra("img", R.drawable.news6)
+            intent.putExtra("text", text)
+            intent.putExtra("date", date)
+            startActivity(intent)
+
+        }
+
+        news7.setOnClickListener {
+            val text = bigtext7.text.toString()
+            val date = date7.text.toString()
+            val intent = Intent(this, NewDetailActivity::class.java)
+            intent.putExtra("img", R.drawable.news7)
+            intent.putExtra("text", text)
+            intent.putExtra("date", date)
+            startActivity(intent)
+
+        }
     }
 }

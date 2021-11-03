@@ -33,5 +33,12 @@ class ColorSecondActivity : AppCompatActivity() {
         }
 
 
+        button2.setOnClickListener {
+
+
+
+        }
+
+
     }
 }
